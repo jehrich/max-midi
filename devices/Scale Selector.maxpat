@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 3,
+			"revision" : 7,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,7 @@
 		"tags" : "",
 		"style" : "",
 		"subpatcher_template" : "",
+		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"comment" : "Number of notes (0-12)",
@@ -101,7 +102,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 9.75, 687.0, 50.0, 22.0 ],
-					"text" : "4"
+					"text" : "0"
 				}
 
 			}
@@ -1366,9 +1367,29 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-55::obj-16" : [ "toggle", "toggle", 0 ],
+			"obj-71::obj-16" : [ "toggle[1]", "toggle", 0 ],
+			"obj-72::obj-16" : [ "toggle[2]", "toggle", 0 ],
+			"obj-73::obj-16" : [ "toggle[3]", "toggle", 0 ],
+			"obj-74::obj-16" : [ "toggle[4]", "toggle", 0 ],
+			"obj-75::obj-16" : [ "toggle[5]", "toggle", 0 ],
+			"obj-76::obj-16" : [ "toggle[6]", "toggle", 0 ],
+			"obj-77::obj-16" : [ "toggle[7]", "toggle", 0 ],
+			"obj-78::obj-16" : [ "toggle[8]", "toggle", 0 ],
+			"obj-79::obj-16" : [ "toggle[9]", "toggle", 0 ],
+			"obj-80::obj-16" : [ "toggle[10]", "toggle", 0 ],
+			"obj-81::obj-16" : [ "toggle[11]", "toggle", 0 ],
+			"parameterbanks" : 			{
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
 		"dependency_cache" : [ 			{
 				"name" : "note_selector.maxpat",
-				"bootpath" : "~/Documents/M4L Devices/scale-mode/devices",
+				"bootpath" : "~/Documents/M4L Devices/max-midi/devices",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
