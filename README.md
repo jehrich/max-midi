@@ -3,6 +3,8 @@ A collection of MIDI effects created in Max for Live
 
 ## Scale Mode
 
+![Scale Mode v2 Device Image](images/scale-mode-v2.jpg)
+
 I created the Scale Mode devices to make it easier to use the MIDI Figter 3D as a melodic input device.
 
 Scale mode takes a range of input notes and maps them to a continuous scale. It differs from the stock
